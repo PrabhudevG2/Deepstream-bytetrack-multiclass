@@ -5,7 +5,7 @@ This code is based on the [official code](https://github.com/ifzhang/ByteTrack).
 Integrating Byte-Track C++ code with the Deepstream-7.1.
 
 Features:
-* Only support for DeepStream 7.1. For other verions, Change set(DS_ROOT_DIR /opt/nvidia/deepstream/deepstream-7.1) in CMAKE
+* Only support for DeepStream 7.1. For other verions, Change set(DS_ROOT_DIR /opt/nvidia/deepstream/deepstream-7.1) in CMAKELists
 .
 * Support multi-streams
 * The [memory leak issue](https://github.com/ifzhang/ByteTrack/issues/276) should be resolved.
