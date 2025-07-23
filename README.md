@@ -24,9 +24,11 @@ $make ByteTracker
 This will create ./lib/libByteTracker.so file which can be passed as the custom low level tracker library to deepstream.
 To do so just add it to the folder 
 ```
-/opt/nvidia/deepstream/deepstream/lib/
+/opt/nvidia/deepstream/deepstream-7.1/lib/
 ```
-
+```
+cp ../lib/libByteTracker.so /opt/nvidia/deepstream/deepstream-7.1/lib/
+```
 In your deepstream_app_config.txt add the tracker.
 ```
 [tracker]
